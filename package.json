@@ -9,8 +9,13 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@opentelemetry/exporter-logs-otlp-http": "^0.219.0",
+    "@opentelemetry/resources": "^2.8.0",
+    "@opentelemetry/sdk-logs": "^0.219.0",
+    "mongoose": "^9.7.3",
     "next": "16.2.9",
     "ogl": "^1.0.11",
+    "posthog-js": "^1.393.4",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
